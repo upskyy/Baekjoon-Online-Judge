@@ -1,3 +1,2 @@
 # Baekjoon-Online-Judge
----
-solving the algorithm problem by python
+Solving the algorithm problem with python
