@@ -1,5 +1,5 @@
 N = int(input())
- 
+  
 check = N
 new_num = 0
 temp = 0
