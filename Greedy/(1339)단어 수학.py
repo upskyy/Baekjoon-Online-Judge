@@ -1,7 +1,7 @@
 N = int(input())
 strings = list()
 alphabets = [0 for i in range(26)]
-
+ 
 for _ in range(N):
     strings.append(input())
 
