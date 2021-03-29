@@ -1,4 +1,4 @@
-N = int(input())
+N = int(input()) 
 meetings = list()
 for _ in range(N):
     meetings.append(list(map(int, input().split())))
