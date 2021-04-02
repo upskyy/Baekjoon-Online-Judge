@@ -1,5 +1,5 @@
 from collections import deque
-
+ 
 S = int(input())
 MAX = 1001
 check = [[False] * MAX for _ in range(MAX)]
