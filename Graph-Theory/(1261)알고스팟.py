@@ -5,7 +5,7 @@ maps = [[int(i) for i in input()] for _ in range(N)]
 check = [[-1] * M for _ in range(N)]
 dx = [1, 0, -1, 0]
 dy = [0, 1, 0, -1]
-
+ 
 q = deque()
 q.append((0, 0))
 check[0][0] = 0
