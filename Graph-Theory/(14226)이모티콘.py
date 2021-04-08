@@ -4,7 +4,7 @@ S = int(input())
 MAX = 1001
 check = [[False] * MAX for _ in range(MAX)]
 answer = [[0] * MAX for _ in range(MAX)]
-
+ 
 q = deque()
 q.append((1, 0))
 check[1][0] = True
