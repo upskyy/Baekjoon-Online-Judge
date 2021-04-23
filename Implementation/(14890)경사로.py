@@ -10,8 +10,8 @@ def go(x, y, dx, dy):
 
         if abs(diff) > 1:
             return 0
-        if diff == 1:
-            if k >= L:
+        if diff == 1: 
+            if k >= L: 
                 k = 0
             else:
                 return 0
