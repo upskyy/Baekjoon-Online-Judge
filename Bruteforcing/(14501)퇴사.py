@@ -2,7 +2,7 @@ n = int(input())
 arr = [list(map(int, input().split())) for _ in range(n)]
 answer = 0
 
-
+ 
 def dfs(idx, s):
     global answer
     if idx >= n:
