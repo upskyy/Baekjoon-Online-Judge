@@ -4,7 +4,7 @@ maps = [list(map(int, input().split())) for _ in range(r)]
 
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
-
+ 
 
 def dust_move():
     temp = [[0] * c for _ in range(r)]
