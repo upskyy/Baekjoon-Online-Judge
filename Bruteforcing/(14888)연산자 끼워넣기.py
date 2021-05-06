@@ -3,7 +3,7 @@ numbers = list(map(int, input().split()))
 add, sub, mul, div = map(int, input().split())
 max_value = -1000000001
 min_value = 1000000001
-
+ 
 
 def calculate(idx, num, add, sub, mul, div):
     global max_value, min_value
